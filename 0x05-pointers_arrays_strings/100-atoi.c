@@ -19,10 +19,12 @@ int _atoi(char *s)
 
 	while (s[len] != '\0')
 		len++;
+
 	while (t < len && f == 0)
 	{
 		if (s[t] == '-')
 			++d;
+
 		if (s[t] >= '0' && s[t] <= '9')
 		{
 			digit = s[t] - '0';
