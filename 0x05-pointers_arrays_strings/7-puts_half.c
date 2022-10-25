@@ -2,7 +2,7 @@
 
 /**
  * puts_half - prints half of a string
- * @str: input
+ * @str: input string
  */
 
 void puts_half(char *str)
@@ -11,7 +11,7 @@ void puts_half(char *str)
 
 	while (count >= 0)
 	{
-		if (string[count] == '\0')
+		if (str[count] == '\0')
 			break;
 		count++;
 	}
